@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+}
+
+
+/*Styling til header ligger under her.*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    justify-content: space-between;
+    background-color: #eee;
+    align-items: center;
+}
+
+.søkefelt {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    border: 2px solid black;
+}
+
+.søk-input {
+    font-size: 16px;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 250px;
+}
+
+.søke-ikon {
+    align-items: right;
+}
