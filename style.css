@@ -22,7 +22,6 @@ body,p,a,ul,li{
 .banner-img{
     max-width: 100%;
     height: auto;
-    display: block;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -30,7 +29,6 @@ body,p,a,ul,li{
 #Produkter img{
     max-width: 100%;
     height: auto;
-    display: block;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -72,14 +70,14 @@ header {
 .søkeseksjon {
     display: flex;
     flex-direction: column; /* Søkeelementer under hverandre */
-    gap: 10px;
+    gap: 20px;
     width: 100%;
 }
 
 .søkefelt {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     width: 100%;
 }
 
@@ -101,7 +99,7 @@ header {
 .header-nav {
     display: flex;
     flex-direction: column; /* Navigasjonselementer under hverandre */
-    gap: 10px;
+    gap: 20px;
     width: 100%;
 }
 
@@ -111,7 +109,7 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
 .navigasjon a {
@@ -135,25 +133,90 @@ header {
 }
 
 /* Ikoner */
-.ikoner {
+.ikoner-header {
     display: flex;
     flex-direction: column; /* Ikoner under hverandre */
-    gap: 10px;
+    gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
     align-items: flex-start;
 }
 
-.ikoner li {
+.ikoner-header li {
     font-size: 20px;
     color: #333;
 }
 
-.ikoner li a {
+.ikoner-header li a {
     text-decoration: none;
     color: inherit;
 }
+
+/*Footer Justeringer.*/
+
+footer {
+    display: flex;
+    flex-direction: column;  /* Stabler seksjonene vertikalt */
+    gap: 20px;  /* Legger til mellomrom mellom seksjonene */
+    background-color: #f6f6f6;
+    border-top: 1px solid #000;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.Kontaktinfo li {
+    margin-bottom: 10px;
+}
+
+.fet-tekst {
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.vanlig-tekst {
+    font-weight: normal;
+}
+
+.Snarveier ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Snarveier li {
+    margin: 0;
+}
+
+.Snarveier a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Sosiale-medier ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Sosiale-medier li {
+    margin: 0;
+}
+
+.Sosiale-medier a {
+    font-size: large;
+    color: #000;
+    text-decoration: none;
+}
+
+
 
 /*Media Queriies.*/
 @media screen and (min-width: 620px){

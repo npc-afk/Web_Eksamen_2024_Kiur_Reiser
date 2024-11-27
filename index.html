@@ -15,7 +15,7 @@
     <header>
         <section class="søkeseksjon">
             <form class="søkefelt" action="søk">
-                <input class="søk-input" type="search" placeholder="Søk her">
+                <input class="søk-input" type="search" placeholder="søk her">
                 <button class="søke-knapp">
                     <i class="søke-ikon fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -31,7 +31,7 @@
                 <li><a href="#Kategorier">Kategorier</a></li>
                 <li><a href="#Kontakt">Kontakt oss</a></li>
             </ul>
-            <ul class="ikoner">
+            <ul class="ikoner-header">
                 <li><i class="fa-regular fa-user"></i></li>
                 <li><i class="fa-regular fa-heart"></i></li>
                 <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -124,35 +124,52 @@
 </main>
 
 <footer>
-    <section id="Footer-logo">
+    <section class="Footer-logo">
         <h2>Logo</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus urna vitae lectus tempus lacinia.</p>
     </section>
-    <section id="Kontaktinfo">
+    <section class="Kontaktinfo">
         <h3>KONTAKT</h3>
-        <p>Adresse</p>
-        <p>Telefon</p>
-        <p>E-post</p>
-        <p>Åpningstider</p>
+        <ul>
+            <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="fet-tekst">Adresse:</span>
+                <span class="vanlig-tekst">B R A Veien 4, 1757 Halden</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone"></i>
+                <span class="fet-tekst">Telefon:</span>
+                <span class="vanlig-tekst">69 60 80 00</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <span class="fet-tekst">E-post:</span>
+                <span class="vanlig-tekst">halden@hiof.no</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-clock"></i>
+                <span class="fet-tekst">Åpningstider:</span>
+                <span class="vanlig-tekst">Stenger 15:00</span>
+            </li>
+        </ul>
     </section>
-    <section id="Snarveier">
+    <nav class="Snarveier">
         <h3>SNARVEIER</h3>
         <ul>
             <li><a href="#Produkter">Produkter</a></li>
             <li><a href="#Kategorier">Kategorier</a></li>
             <li><a href="#Kontakt">Kontakt oss</a></li>
         </ul>
-    </section>
-    <section id="Sosiale-medier">
+    </nav>
+    <nav class="Sosiale-medier">
         <h3>SOSIALE MEDIER</h3>
         <ul>
-            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-            <li><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i> Pinterest</a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
         </ul>
-    </section>
-    
-</footer>    
+    </nav>
+</footer>
 </body>
 </html>
