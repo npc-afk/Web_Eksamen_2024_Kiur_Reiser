@@ -7,32 +7,37 @@
     <link rel="stylesheet" href="css/font/css/fontawesome.css">
     <link rel="stylesheet" href="css/font/css/brands.css">
     <link rel="stylesheet" href="css/font/css/solid.css">
+    <link rel="stylesheet" href="css/font/css/regular.css">
     <title>Eksamen 2024</title>
 </head>
 
 <body>
     <header>
-        <nav class="side-nav grid">
-            <section class="søkefelt">
-                <form action="søk">
-                    <input class="søk-input" type="search" placeholder="søk her">
+        <section class="søkeseksjon">
+            <form class="søkefelt" action="søk">
+                <input class="søk-input" type="search" placeholder="Søk her">
+                <button class="søke-knapp">
                     <i class="søke-ikon fa-solid fa-magnifying-glass"></i>
-                </form>
-            </section>
-        <h1><a href=index.html>Logo</a></h1>
-        <ul>
-            <li><a href="index.html">Hjem</a></li>
-            <li><a href="#Produkter">Produkter</a></li>
-            <li><a href="#Kategorier">Kategorier</a></li>
-            <li><a href="#Kontakt">Kontakt oss</a></li>
-        </ul>
-        <section id="ikoner" class="grid">
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-regular fa-heart"></i>
-            <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </button>
+            </form>
         </section>
-    </nav>
-</header>
+        <nav class="header-nav">
+            <ul class="navigasjon venstre">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="#Produkter">Produkter</a></li>
+            </ul>
+            <h1 class="logo"><a href="index.html">Logo</a></h1>
+            <ul class="navigasjon høyre">
+                <li><a href="#Kategorier">Kategorier</a></li>
+                <li><a href="#Kontakt">Kontakt oss</a></li>
+            </ul>
+            <ul class="ikoner">
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+    </header>
 
 <main>
     <section id="Banner" class="grid">
@@ -41,7 +46,7 @@
             <p class="ledetekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus urna vitae lectus tempus lacinia. </p>
             <a href="#Hjem" class="button">Les Mer</a>
         </div>
-        <div class="welkommen-img">
+        <div class="banner-img">
             <img src="ressurser/pic1.jpg" alt="vinterkveld">
         </div>
     </section>
