@@ -59,17 +59,16 @@ body{
 
 header {
     display: flex;
-    flex-direction: column; /* Vertikalt oppsett som standard */
+    flex-direction: column; 
     background-color: #f6f6f6;
-    
-    gap: 20px; /* Luft mellom seksjonene */
-    align-items: flex-start; /* Venstrejustert innhold */
+    gap: 20px; 
+    align-items: flex-start; 
 }
 
 /* Søkeseksjon */
 .søkeseksjon {
     display: flex;
-    flex-direction: column; /* Søkeelementer under hverandre */
+    flex-direction: column; 
     gap: 20px;
     width: 100%;
 }
@@ -98,14 +97,14 @@ header {
 /* Navigasjon */
 .header-nav {
     display: flex;
-    flex-direction: column; /* Navigasjonselementer under hverandre */
+    flex-direction: column; 
     gap: 20px;
     width: 100%;
 }
 
 .navigasjon {
     display: flex;
-    flex-direction: column; /* Lenker under hverandre */
+    flex-direction: column; 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -135,7 +134,7 @@ header {
 /* Ikoner */
 .ikoner-header {
     display: flex;
-    flex-direction: column; /* Ikoner under hverandre */
+    flex-direction: column; 
     gap: 20px;
     list-style: none;
     padding-bottom: 3rem;
@@ -157,8 +156,8 @@ header {
 
 footer {
     display: flex;
-    flex-direction: column;  /* Stabler seksjonene vertikalt */
-    gap: 20px;  /* Legger til mellomrom mellom seksjonene */
+    flex-direction: column;  
+    gap: 20px;  
     background-color: #f6f6f6;
     border-top: 1px solid #000;
     padding-top: 20px;
@@ -334,6 +333,7 @@ footer {
 /*Forside anmeldelser sekjson.*/
 
 #Anmeldelser {
+    margin-top: 3rem;
     padding-bottom: 20px;
 }
 
@@ -361,6 +361,87 @@ footer {
     font-size: large;
     color: #000;
 }
+
+
+
+
+
+/*Produktside justeringer.*/
+/*Brødsmule seksjon.*/
+
+.brødsmulesti {
+    text-align: left;
+}
+
+.brødsmulesti p, i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#brødsmulesti-produktnavn {
+    font-weight: bold;
+}
+
+/*Produkt seksjon.*/
+.Gul-produkt {
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.Gul-produkt h2 {
+     margin-top: 2rem;
+}
+
+.Gul-produkt p {
+    margin-bottom: 1rem;
+}
+
+.Gul-produkt img {
+    display: block;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+#produktmerke {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    color: #000;
+}
+
+#gulfarge {
+    font-weight: bold;
+}
+
+/*Lignede produkter seksjon.*/
+.lignende-produkter {
+    padding: 1rem;
+    margin: 0;
+}
+
+.lignende-prodnavn {
+    display: inline-block;
+    margin: 0;
+    padding-right: 4rem;
+    margin-bottom: 1rem;
+}
+
+.lignende-prodpris {
+    display: inline-block;
+    margin: 0;
+    padding-left: 4.5rem;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.lignende-produkter img {
+    max-width: 100%; 
+    margin-bottom: 1rem; 
+    margin-top: 2rem;
+}
+
+/*Kasseside justeringer.*/
+/*Brødsmule seksjon.*/
+
 
 
 /*Media Queriies.*/
