@@ -3,13 +3,10 @@
     
 }
 
-
 #grid-container {
     display: grid;
     grid-template-areas: "header" "main" "footer";
 }
-
-
 
 /*Side justeringer*/
 body,p,a,ul,li{
@@ -36,7 +33,9 @@ li{
     list-style-type: none;
 }
 
-
+.produkter-lenker {
+    color: #000;
+}
 
 /*Vanlig stiler*/
 body{
@@ -80,17 +79,19 @@ header {
 }
 
 .søk-input {
-    
     padding: 8px;
     border: 1px solid #000000;
 }
 
 .søke-knapp {
-    padding: 8px 16px;
+    padding: 8px;
     background: #ffffff;
     border: none;
-    cursor: pointer;
     border: 1px solid #000000;
+}
+
+.søke-ikon {
+    padding-left: 8px;
 }
 
 /* Navigasjon */
@@ -360,10 +361,6 @@ footer {
     color: #000;
 }
 
-
-
-
-
 /*Produktside justeringer.*/
 /*Brødsmule seksjon.*/
 
@@ -573,18 +570,27 @@ footer {
     margin-bottom: 5rem;
 }
 
-
-/*Media Queriies.*/
-@media screen and (min-width: 620px){
-
+/*Tilgjengelighetserklæring justeringer*/
+.oppfylte-krav {
+    margin-bottom: 3rem;
 }
 
-/*Media Queriies. Ipads og små laptops */
-@media screen and (min-width: 960px){
-    
+.oppfylte-krav li {
+    margin-top: 1rem;
 }
 
-/*Media Queriies. Desktop*/
-@media screen and (min-width: 1200px){
-    
+.oppfylte-krav p {
+    font-weight: bold;
+}
+
+.ikke-oppfylte-krav {
+    margin-bottom: 3rem;
+}
+
+.ikke-oppfylte-krav ul {
+    margin-top: 1rem;
+}
+
+.ikke-oppfylte-krav p {
+    font-weight: bold;
 }
