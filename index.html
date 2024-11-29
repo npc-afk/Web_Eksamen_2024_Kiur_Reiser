@@ -13,9 +13,9 @@
 <body>
     <header>
         <section class="søkeseksjon">
-            <form class="søkefelt" action="søk">
-                <input class="søk-input" type="search" placeholder="søk her">
-                <button class="søke-knapp">
+            <form class="søkefelt" action="søk" aria-label="Søkeseksjon">
+                <input class="søk-input" type="search" placeholder="søk her" aria-label="Søk her">
+                <button class="søke-knapp" aria-label="Start søk">
                     <i class="søke-ikon fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
@@ -31,9 +31,9 @@
                 <li><a href="#Kontakt">Kontakt oss</a></li>
             </ul>
             <ul class="ikoner-header">
-                <li><i class="fa-regular fa-user"></i></li>
-                <li><i class="fa-regular fa-heart"></i></li>
-                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><i class="fa-regular fa-user" aria-hidden="true"></i></li>
+                <li><i class="fa-regular fa-heart" aria-hidden="true"></i></li>
+                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -47,49 +47,49 @@
         <h2>Våre mest populære produkter</h2>
         <p>Oppdag det beste av det beste</p>
         <ul class="produkter-knapper">
-            <li><button class="filter-knapp">New Product</button></li>
-            <li><button class="filter-knapp">Special Price</button></li>
-            <li><button class="filter-knapp">Best Sellers</button></li>
+            <li><button class="filter-knapp" aria-pressed="false">New Product</button></li>
+            <li><button class="filter-knapp" aria-pressed="false">Special Price</button></li>
+            <li><button class="filter-knapp" aria-pressed="false">Best Sellers</button></li>
         </ul>
         <ul class="produkter">
             <li>
                 <a class="produkter-lenker" href="product.html">
-                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="første-produkt">
+                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="liten gul bil">
                 <h3>Gul bil 1</h3>
                 <p>Kr 1999</p>
                 </a>
             </li>
             <li>
                 <a class="produkter-lenker" href="product.html">
-                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="andre-produkt">
+                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="liten gul bil til salgs">
                 <h3>Gul bil 2</h3>
                 <p>Kr 1999</p>
                 </a>
             </li>
             <li>
                 <a class="produkter-lenker" href="product.html">
-                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="tredje-produkt">
+                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="liten gul bil til salgs">
                 <h3>Gul bil 3</h3>
                 <p>Kr 1999</p>
                 </a>
             </li>
             <li>
                 <a class="produkter-lenker" href="product.html">
-                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="fjerde-produkt">
+                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="liten gul bil til salgs">
                 <h3>Gul bil 4</h3>
                 <p>Kr 1999</p>
                 </a>
             </li>
             <li>
                 <a class="produkter-lenker" href="product.html">
-                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="femte-produkt">
+                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="liten gul bil til salgs">
                 <h3>Gul bil 5</h3>
                 <p>Kr 1999</p>
                 </a>
             </li>
             <li>
                 <a class="produkter-lenker" href="product.html">
-                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="sjette-produkt">
+                <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="liten gul bil til salgs">
                 <h3>Gul bil 6</h3>
                 <p>Kr 1999</p>
                 </a>
@@ -120,22 +120,22 @@
     <section id="Anmeldelser">
         <h2>Anmeldelser</h2>
         <article>
-            <img src="ressurser/polar-bear-8703952_640.jpg" alt="OlaNordmann">
+            <img src="ressurser/polar-bear-8703952_640.jpg" alt="Ola Nordmann anmeldelse">
             <h3>Ola Nordmann</h3>
             <p class="ledetekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus urna vitae lectus tempus lacinia. Maecenas ut ex quam. Aenean fermentum vulputate maximus. Phasellus lobortis eros ac enim dignissim ultricies. Cras mauris enim, iaculis nec diam id, pretium facilisis orci.</p>
         </article>
         <article>
-            <img src="ressurser/polar-bear-8703952_640.jpg" alt="ThorNordmann">
+            <img src="ressurser/polar-bear-8703952_640.jpg" alt="Thor Nordmann anmeldelse">
             <h3>Thor Nordmann</h3>
             <p class="ledetekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus urna vitae lectus tempus lacinia. Maecenas ut ex quam. Aenean fermentum vulputate maximus. Phasellus lobortis eros ac enim dignissim ultricies. Cras mauris enim, iaculis nec diam id, pretium facilisis orci.</p>
         </article>
         <article>
-            <img src="ressurser/polar-bear-8703952_640.jpg" alt="OdinNordmann">
+            <img src="ressurser/polar-bear-8703952_640.jpg" alt="Odin Nordmann anmeldelse">
             <h3>Odin Nordmann</h3>
             <p class="ledetekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus urna vitae lectus tempus lacinia. Maecenas ut ex quam. Aenean fermentum vulputate maximus. Phasellus lobortis eros ac enim dignissim ultricies. Cras mauris enim, iaculis nec diam id, pretium facilisis orci.</p>
         </article>
         <article>
-            <img src="ressurser/polar-bear-8703952_640.jpg" alt="HelgaNordmann">
+            <img src="ressurser/polar-bear-8703952_640.jpg" alt="Helga Nordmann anmeldelse">
             <h3>Helga Nordmann</h3>
             <p class="ledetekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus urna vitae lectus tempus lacinia. Maecenas ut ex quam. Aenean fermentum vulputate maximus. Phasellus lobortis eros ac enim dignissim ultricies. Cras mauris enim, iaculis nec diam id, pretium facilisis orci.</p>
         </article>
@@ -150,22 +150,22 @@
         <h3>KONTAKT</h3>
         <ul>
             <li>
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                 <span class="fet-tekst">Adresse:</span>
                 <span class="vanlig-tekst">B R A Veien 4, 1757 Halden</span>
             </li>
             <li>
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
                 <span class="fet-tekst">Telefon:</span>
                 <span class="vanlig-tekst">69 60 80 00</span>
             </li>
             <li>
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                 <span class="fet-tekst">E-post:</span>
                 <span class="vanlig-tekst">halden@hiof.no</span>
             </li>
             <li>
-                <i class="fa-solid fa-clock"></i>
+                <i class="fa-solid fa-clock" aria-hidden="true"></i>
                 <span class="fet-tekst">Åpningstider:</span>
                 <span class="vanlig-tekst">Stenger 15:00</span>
             </li>
@@ -183,10 +183,10 @@
     <nav class="Sosiale-medier">
         <h3>SOSIALE MEDIER</h3>
         <ul>
-            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a></li>
         </ul>
     </nav>
 </footer>

@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="css/font/css/regular.css">
     <title>Eksamen 2024</title>
 </head>
-
 <body>
     <header>
         <section class="søkeseksjon">
-            <form class="søkefelt" action="søk">
-                <input class="søk-input" type="search" placeholder="søk her">
-                <button class="søke-knapp">
+            <form class="søkefelt" action="søk" aria-label="Søkeseksjon">
+                <input class="søk-input" type="search" placeholder="søk her" aria-label="Søk her">
+                <button class="søke-knapp" aria-label="Start søk">
                     <i class="søke-ikon fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
@@ -32,9 +31,9 @@
                 <li><a href="#Kontakt">Kontakt oss</a></li>
             </ul>
             <ul class="ikoner-header">
-                <li><i class="fa-regular fa-user"></i></li>
-                <li><i class="fa-regular fa-heart"></i></li>
-                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><i class="fa-regular fa-user" aria-hidden="true"></i></li>
+                <li><i class="fa-regular fa-heart" aria-hidden="true"></i></li>
+                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -43,10 +42,28 @@
             <h2>Hva jeg har gjort for å oppfylle kravene</h2>
             <p>Jeg har implementert følgende tiltak for å sikre tilgjengelighet for alle brukere:</p>
             <ul>
-                <li>Tekstalternativer for bilder: Alle bilder har fått meningsfylte alternativer via "alt"-attributtene.</li>
+                <li>Tekstalternativer for bilder: Alle bilder har fått alternativer til "alt"-attributtene.</li>
+                <li>Form og søkefelt: Det er lagt til med aria atributtene i header og footer.</li>
                 <li>Navigerbarhet: Bruk av semantiske HTML-elementer som "nav", "header", "main", "section", "article" og "footer" for bedre struktur.</li>
                 <li>Fargekontraster: Bakgrunns og tekstfarger er valgt for å oppfylle minst WCAG AA-nivå.</li>
                 <li>Tastaturnavigasjon: Alle interaktive elementer er tilgjengelige via tastatur.</li>
+                <li>Informasjon og relasjoner: Ting er kodet som det ser ut som.</li>
+                <li>Meningsfylt rekkefølge: Presenterer innhold i meningsfull rekkefølge</li>
+                <li>Tekstavstand: Det skal være mulig å overstyres tekstavstanden</li>
+                <li>Pekerfølsomt innhold eller innhold ved tastaturfokus: Brukeren skal ha mer kontroll på nettsiden som får fokus med musepeker eller tastatur</li>
+                <li>Hoppe over blokker: Det er mulig å hoppe direkte til hovedinnholdet, mest på forsiden</li>
+                <li>Fokusrekkefølge: Det er logisk rekkefølge på nettsidene</li>
+                <li>Formål med lenke: Alle lenker er tydelige</li>
+                <li>Flere måter: Kan navigeres flere måter</li>
+                <li>Overskrifter og ledetekster: Overskrifter og ledetekster er beskrivende</li>
+                <li>Synlig fokus: Tastaturnavigering er synlig, når i bruk</li>
+                <li>Pekerbevegelser: Kan navigeres med pekerbevegelser</li>
+                <li>Pekeravbrytelse: Det er lettet uheldige og feilaktige input</li>
+                <li>Språk på siden: Språk er angitt i koden</li>
+                <li>Inndata: Endring i skjema medfører ikke til automatiske endringer på nettsiden</li>
+                <li>Ledetekster eller instruksjoner: Nettsiden har instruksjoner på skjemaer</li>
+                <li>Forhindring av feil: Det er mulig å angre, endre og bekrefte</li>
+                <li>Parsing: Nettsiden har ikke store kodefeil</li>
             </ul>
         </section>
         <section class="ikke-oppfylte-krav">
@@ -54,6 +71,19 @@
             <p>Følgende krav er ikke relevante for nettstedet:</p>
             <ul>
                 <li>Teksting av videoer: Nettstedet inneholder ikke videoer.</li>
+                <li>Lyd: Nettstedet inneholder ikke lyd.</li>
+                <li>Videoer: Nettstedet inneholder ikke videoer.</li>
+                <li>Synstolking: Nettstedet inneholder ikke videoer.</li>
+                <li>Teksting av videoer: Nettstedet inneholder ikke videoer.</li>
+                <li>Bruk av farge: Nettsiden har ikke utelukkende farger</li>
+                <li>Sensoriske egenskaper: Nettsiden har ikke lyd</li>
+                <li>Visningsretning: Nettsiden er satt opp vertikalt</li>
+                <li>Styring av lyd: Nettsiden har ikke lyd</li>
+                <li>Bilder av tekst: Det er ikke brukt tekst i stedet for bilder</li>
+                <li>Terskelverdi på maksimalt tre glimt: Nettsidene blinker ikke</li>
+                <li>Bevegelsesaktivering: Nettsiden har ikke bevegelses input</li>
+                <li>Språk på deler av innhold: Det er brukt generert tekst på nettsidene</li>
+                <li>Ledetekster eller instruksjoner: Nettsiden har ikke instruksjoner på </li>
             </ul>
         </section>
     </main>
@@ -66,22 +96,22 @@
             <h3>KONTAKT</h3>
             <ul>
                 <li>
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                     <span class="fet-tekst">Adresse:</span>
                     <span class="vanlig-tekst">B R A Veien 4, 1757 Halden</span>
                 </li>
                 <li>
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
                     <span class="fet-tekst">Telefon:</span>
                     <span class="vanlig-tekst">69 60 80 00</span>
                 </li>
                 <li>
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                     <span class="fet-tekst">E-post:</span>
                     <span class="vanlig-tekst">halden@hiof.no</span>
                 </li>
                 <li>
-                    <i class="fa-solid fa-clock"></i>
+                    <i class="fa-solid fa-clock" aria-hidden="true"></i>
                     <span class="fet-tekst">Åpningstider:</span>
                     <span class="vanlig-tekst">Stenger 15:00</span>
                 </li>
@@ -99,12 +129,12 @@
         <nav class="Sosiale-medier">
             <h3>SOSIALE MEDIER</h3>
             <ul>
-                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
     </footer>
-</body>
-</html>
+    </body>
+    </html>

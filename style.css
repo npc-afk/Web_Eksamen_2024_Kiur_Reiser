@@ -271,7 +271,7 @@ footer {
     margin: 20px 0;
     gap: 20px;
 }
-
+/*Fikk hjelp av AI for justering av knappene til vedsiden av hverandre*/
 .filter-knapp {
     text-align: left;
     border: 1px solid #000;
@@ -419,7 +419,7 @@ footer {
     padding-right: 4rem;
     margin-bottom: 1rem;
 }
-
+/*Fikk hjelp av AI for justering prisen på høyresiden etter produktnavn*/
 .lignende-prodpris {
     display: inline-block;
     margin: 0;
@@ -588,6 +588,10 @@ footer {
 }
 
 .ikke-oppfylte-krav ul {
+    margin-top: 1rem;
+}
+
+.ikke-oppfylte-krav li {
     margin-top: 1rem;
 }
 
