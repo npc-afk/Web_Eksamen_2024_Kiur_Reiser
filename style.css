@@ -16,7 +16,6 @@ body,p,a,ul,li{
     margin: 0;
     padding: 0;
     text-decoration: none;
-
 }
 
 .banner-img{
@@ -302,7 +301,6 @@ footer {
 
 #Kategorier {
     margin-top: 5rem;
-    
 }
 
 #Kategorier h2 {
@@ -440,8 +438,140 @@ footer {
 }
 
 /*Kasseside justeringer.*/
-/*Brødsmule seksjon.*/
+/*Shoppingbagen.*/
+#Kasse {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
 
+.handlekurv {
+    margin: 0;
+}
+
+.handlekurv img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.handlekurv h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.handlekurv h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.handlekurv p {
+    font-size: 1rem;
+}
+
+/*Opplysninger.*/
+
+.opplysninger h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.opplysninger form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.opplysninger label {
+    font-weight: bold;
+}
+
+.opplysninger input {
+    padding: 1rem 1rem;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.lagre {
+    max-width: fit-content;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #cccccc;
+    background-color: #494949;
+    color: #fff;
+}
+
+.avbryt {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+/*Levering*/
+
+.levering {
+    padding-bottom: 2rem;
+}
+
+.levering h2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.levering h3 {
+    margin-bottom: 1rem;
+}
+
+.levering p {
+    margin: 2rem 0; 
+    font-weight: bold;
+}
+
+.levering input {
+    margin-right: 0.5rem;
+}
+
+/*Betaling*/
+.betaling {
+    margin-top: 1rem;
+    max-width: 100%;
+}
+
+.betaling form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.betalingsinfo input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #000;
+}
+
+#summen {
+    margin-top: 3rem;
+}
+
+.fullfør {
+    max-width: fit-content;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #cccccc;
+    background-color: #494949;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.samtykke {
+    font-size: 14px;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
 
 
 /*Media Queriies.*/

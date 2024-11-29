@@ -38,6 +38,73 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <h2 id="Kasse">Kasse</h2>
+        <section class="handlekurv">
+            <h2>1. SHOPPINGBAGEN DIN</h2>
+            <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="Gulbil-produkt">
+            <h3>PRODUCT NAME</h3>
+            <p>Kr 1999</p>
+            <p>Farge: gul </p>
+            <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="Gulbil-produkt">
+            <h3>PRODUCT NAME</h3>
+            <p>Kr 1999</p>
+            <p>Farge: gul </p>
+            <img src="ressurser/hot-wheels-8177051_1280.jpg" alt="Gulbil-produkt">
+            <h3>PRODUCT NAME</h3>
+            <p>Kr 1999</p>
+            <p>Farge: gul </p>
+        </section>
+        <section class="opplysninger">
+            <h2>2. DINE OPPLYSNINGER</h2>
+            <form>
+                <p>Leveringsadresse</p>
+                <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn*" required>
+                <input type="text" id="etternavn" name="etternavn" placeholder="Etternavn*" required>
+                <input type="text" id="gateadresse" name="gateadresse" placeholder="Gateadresse*" required>
+                <input type="number" id="postnummer" name="postnummer" placeholder="Postnummer*" required>
+                <input type="text" id="poststed" name="poststed" placeholder="Poststed*" required>
+                <button class="lagre" type="submit">Lagre</button>
+                <a href="#" class="avbryt">Avbryt</a>
+            </form>
+        </section>
+        <section class="levering">
+            <h2>3. LEVERING</h2>
+            <h3>LEVERINGSVALG</h3>
+            <p>
+                <label for="Express-hjem"><input type="radio" id="Express-hjem" name="express-hjemlevering">Express Hjemlevering</label>
+            </p>
+            <p>
+                <label for="Express-ut"><input type="radio" id="Express-ut" name="express-utlevering">Express Pakke til utleveringssted</label>
+            </p>
+            <p>
+                <label for="Standard-hjem"><input type="radio" id="Standard-hjem" name="standard-hjemlevering">Standard Hjemlevering</label>
+            </p>
+        </section>
+        <section class="betaling">
+            <h2>4. BETALING</h2>
+            <h3>BETAL MED KORT</h3>
+            <form class="betalingsinfo">
+                <p>Kortnummer</p>
+                <input type="number" id="kortnummer" name="kortnummer" placeholder="342342****4435" required>
+                <p>Utløpsdato</p>
+                <input type="date" id="dato" name="dato" required>
+                <p>CVC/CVV</p>
+                <input type="text" id="CVC/CVV" name="CVC/CVV" placeholder="CVC/CVV" required>
+            </form>
+            <p id="summen">Å betale inkl. mva.</p>
+            <p>1 199 kr</p>
+            <button class="fullfør" type="submit">Fullfør kjøp</button>
+            <p>Du bekrefter herved at opplysningene og dokumentene du har
+                oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                retten til å heve eller avslutte avtaleforholdet dersom det foreligger
+                uriktige eller ufullstendige opplysninger.</p>
+            <form class="samtykke">
+                <label for="Ja-takk"><input type="checkbox" id="Ja-takk" name="Ja-takk">Ja takk! Send nyhetsbrev til meg.</label>
+                <label for="Jeg-ønsker"><input type="checkbox" id="Jeg-ønsker" name="Jeg-ønsker">Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.</label>
+            </form>
+        </section>
+    </main>
 
     <footer>
         <section class="Footer-logo">
